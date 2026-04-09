@@ -13,7 +13,7 @@
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <!-- Logo -->
             <div class="flex items-center">
-                <h1 class="text-2xl font-bold text-brick-red-500">NC</h1>
+                <img src="{{ asset('img/logo.png') }}" alt="Nusantara Clash" class="h-12 w-auto">
             </div>
             
             <!-- Navigation Links -->

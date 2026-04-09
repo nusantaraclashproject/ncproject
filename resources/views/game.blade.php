@@ -8,44 +8,35 @@
             <div class="flex items-center gap-12">
                 <!-- Left Content (60%) -->
                 <div class="w-3/5">
-                    <h2 class="text-5xl font-bold text-brick-red-500 mb-8">What Is Nusantara Clash</h2>
+                    <h2 class="text-5xl font-bold text-brick-red-500 mb-8">Nusantara Clash</h2>
                     
                     <p class="text-charcoal-blue-200 text-lg leading-relaxed mb-6">
-                        Nusantara Clash adalah permainan papan strategis yang menggabungkan elemen tradisional Indonesia dengan mekanik game modern. 
-                        Pemain bersaing untuk menguasai wilayah-wilayah nusantara dengan taktik dan strategi yang mendalam.
+                        <strong class="text-tangerine-dream-500">Permainan Papan Strategi Berbasis Kartu</strong> yang mempertemukan 2–4 pemain dalam perebutan kendali di berbagai arena permainan tradisional Indonesia. Menggunakan mekanisme hand management sederhana dengan sistem 3 kartu tetap di tangan, di mana setiap pemain selalu memegang tiga jenis kartu berbeda.
                     </p>
 
                     <p class="text-charcoal-blue-200 text-lg leading-relaxed mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <strong class="text-prussian-blue-300">Papan Permainan:</strong> Terdiri dari 5 arena permainan (Engklek, Gobak Sodor, Congklak, Gasing, Bentengan) yang menjadi lokasi utama perebutan token kemenangan. Pemain harus bergerak ke arena-arena ini dan menggunakan kartu secara strategis untuk menguasai wilayah.
                     </p>
 
                     <p class="text-charcoal-blue-200 text-lg leading-relaxed mb-8">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <strong class="text-crimson-violet-300">Tujuan Permainan:</strong> Berhasil mengumpulkan 3 token dari 3 arena berbeda untuk memenangkan permainan. Setiap giliran, pemain dapat bergerak menuju arena tertentu atau memainkan kartu untuk mempengaruhi situasi permainan melalui duel atau deklarasi.
                     </p>
 
                     <!-- Game Features -->
                     <div class="mt-10">
-                        <h3 class="text-2xl font-bold text-tangerine-dream-500 mb-4">Fitur Utama:</h3>
+                        <h3 class="text-2xl font-bold text-tangerine-dream-500 mb-4">Jenis Kartu</h3>
                         <ul class="space-y-3">
                             <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">•</span>
-                                <span>Strategi mendalam dengan multiple paths to victory</span>
+                                <span class="text-brick-red-500 font-bold text-xl">🏃</span>
+                                <span><strong>Kartu Gerak (10 kartu):</strong> Digunakan untuk memindahkan pemain ke arena lain. Termasuk aksi seperti Langkah Cepat, Lari Cepat, dan Kejar Lawan.</span>
                             </li>
                             <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">•</span>
-                                <span>Desain yang menampilkan kekayaan budaya Nusantara</span>
+                                <span class="text-brick-red-500 font-bold text-xl">⚔️</span>
+                                <span><strong>Kartu Taktik (10 kartu):</strong> Digunakan untuk mengatur strategi atau mengganggu lawan. Termasuk Pertahanan Benteng, Gangguan Penjaga, dan Tukar Posisi.</span>
                             </li>
                             <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">•</span>
-                                <span>Gameplay untuk 2-4 pemain dengan durasi 45-90 menit</span>
-                            </li>
-                            <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">•</span>
-                                <span>Komponen berkualitas tinggi dan artwork yang memukau</span>
+                                <span class="text-brick-red-500 font-bold text-xl">🏆</span>
+                                <span><strong>Kartu Tantangan (10 kartu):</strong> Digunakan untuk duel atau deklarasi penguasaan arena. Memiliki nilai 1-5 dengan 2 kartu untuk setiap nilai.</span>
                             </li>
                         </ul>
                     </div>
@@ -57,11 +48,8 @@
 
                 <!-- Right Image (40%) -->
                 <div class="w-2/5">
-                    <div class="sticky top-24 aspect-square bg-linear-to-br from-crimson-violet-700 to-crimson-violet-900 rounded-lg flex items-center justify-center">
-                        <div class="text-center">
-                            <p class="text-charcoal-blue-300 text-lg">Board Game Image</p>
-                            <p class="text-charcoal-blue-400 text-sm mt-2">Placeholder</p>
-                        </div>
+                    <div class="sticky top-24 bg-linear-to-br from-crimson-violet-700 to-crimson-violet-900 rounded-lg flex items-center justify-center overflow-hidden p-4">
+                        <img src="{{ asset('img/banner 40x30.png') }}" alt="Nusantara Clash Board Game" class="w-full h-auto object-contain">
                     </div>
                 </div>
             </div>

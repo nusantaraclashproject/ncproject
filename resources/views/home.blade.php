@@ -12,9 +12,7 @@
             
             <!-- Subtitle with Staggered Animation -->
             <p class="text-xl text-charcoal-blue-200 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-100">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Permainan tradisional Nusantara merupakan bagian penting dari warisan budaya Indonesia. Board game Nusantara Clash menghadirkan kembali semangat permainan tradisional dalam bentuk yang lebih modern dan interaktif. Menggabungkan konsep pergerakan arena yang terinspirasi dari pola permainan tradisional dengan mekanik strategi berbasis kartu.
             </p>
 
             <!-- Call to Action Button -->
