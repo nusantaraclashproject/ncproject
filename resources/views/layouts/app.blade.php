@@ -7,9 +7,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 </head>
-<body class="bg-charcoal-blue-900 text-charcoal-blue-50">
+<body class="bg-dark-coffee-900 text-dark-coffee-50">
     <!-- Navbar -->
-    <nav class=" bg-charcoal-blue-900 rounded-xl sticky top-0 z-50 shadow-md">
+    <nav class=" bg-dark-coffee-900 rounded-xl sticky top-0 z-50 shadow-md">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <!-- Logo -->
             <div class="flex items-center">
@@ -32,23 +32,23 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-charcoal-blue-800 border-t border-prussian-blue-700 mt-16 py-8">
-        <div class="max-w-7xl mx-auto px-6 text-center text-charcoal-blue-400">
+    <footer class="bg-dark-coffee-800 border-t border-dark-coffee-700 mt-16 py-8">
+        <div class="max-w-7xl mx-auto px-6 text-center text-dark-coffee-400">
             <p>&copy; 2026 Nusantara Clash. All rights reserved.</p>
         </div>
     </footer>
 
     <style>
         .nav-link {
-            @apply text-charcoal-blue-900 hover:text-brick-red-500 transition-colors duration-300 relative font-medium;
+            @apply text-dark-coffee-900 hover:text-rosy-copper-500 transition-colors duration-300 relative font-medium;
         }
         
         .nav-link.active {
-            @apply text-brick-red-500;
+            @apply text-rosy-copper-500;
         }
         
         .nav-link.active::after {
-            @apply block absolute bottom-0 h-1 w-full bg-brick-red-500;
+            @apply block absolute bottom-0 h-1 w-full bg-rosy-copper-500;
             content: '';
         }
 

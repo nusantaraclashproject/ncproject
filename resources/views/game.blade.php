@@ -3,52 +3,52 @@
 @section('title', 'Game - Nusantara Clash')
 
 @section('content')
-    <section class="min-h-screen bg-charcoal-blue-900 py-16">
+    <section class="min-h-screen bg-dark-coffee-900 py-16">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex items-center gap-12">
                 <!-- Left Content (60%) -->
                 <div class="w-3/5">
-                    <h2 class="text-5xl font-bold text-brick-red-500 mb-8">Nusantara Clash</h2>
+                    <h2 class="text-5xl font-bold text-rosy-copper-500 mb-8">Nusantara Clash</h2>
                     
-                    <p class="text-charcoal-blue-200 text-lg leading-relaxed mb-6">
-                        <strong class="text-tangerine-dream-500">Permainan Papan Strategi Berbasis Kartu</strong> yang mempertemukan 2–4 pemain dalam perebutan kendali di berbagai arena permainan tradisional Indonesia. Menggunakan mekanisme hand management sederhana dengan sistem 3 kartu tetap di tangan, di mana setiap pemain selalu memegang tiga jenis kartu berbeda.
+                    <p class="text-dark-coffee-200 text-lg leading-relaxed mb-6">
+                        <strong class="text-apricot-cream-500">Permainan Papan Strategi Berbasis Kartu</strong> yang mempertemukan 2–4 pemain dalam perebutan kendali di berbagai arena permainan tradisional Indonesia. Menggunakan mekanisme hand management sederhana dengan sistem 3 kartu tetap di tangan, di mana setiap pemain selalu memegang tiga jenis kartu berbeda.
                     </p>
 
-                    <p class="text-charcoal-blue-200 text-lg leading-relaxed mb-6">
-                        <strong class="text-prussian-blue-300">Papan Permainan:</strong> Terdiri dari 5 arena permainan (Engklek, Gobak Sodor, Congklak, Gasing, Bentengan) yang menjadi lokasi utama perebutan token kemenangan. Pemain harus bergerak ke arena-arena ini dan menggunakan kartu secara strategis untuk menguasai wilayah.
+                    <p class="text-dark-coffee-200 text-lg leading-relaxed mb-6">
+                        <strong class="text-dark-cyan-300">Papan Permainan:</strong> Terdiri dari 5 arena permainan (Engklek, Gobak Sodor, Congklak, Gasing, Bentengan) yang menjadi lokasi utama perebutan token kemenangan. Pemain harus bergerak ke arena-arena ini dan menggunakan kartu secara strategis untuk menguasai wilayah.
                     </p>
 
-                    <p class="text-charcoal-blue-200 text-lg leading-relaxed mb-8">
-                        <strong class="text-crimson-violet-300">Tujuan Permainan:</strong> Berhasil mengumpulkan 3 token dari 3 arena berbeda untuk memenangkan permainan. Setiap giliran, pemain dapat bergerak menuju arena tertentu atau memainkan kartu untuk mempengaruhi situasi permainan melalui duel atau deklarasi.
+                    <p class="text-dark-coffee-200 text-lg leading-relaxed mb-8">
+                        <strong class="text-carrot-orange-300">Tujuan Permainan:</strong> Berhasil mengumpulkan 3 token dari 3 arena berbeda untuk memenangkan permainan. Setiap giliran, pemain dapat bergerak menuju arena tertentu atau memainkan kartu untuk mempengaruhi situasi permainan melalui duel atau deklarasi.
                     </p>
 
                     <!-- Game Features -->
                     <div class="mt-10">
-                        <h3 class="text-2xl font-bold text-tangerine-dream-500 mb-4">Jenis Kartu</h3>
+                        <h3 class="text-2xl font-bold text-apricot-cream-500 mb-4">Jenis Kartu</h3>
                         <ul class="space-y-3">
-                            <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">🏃</span>
+                            <li class="flex items-start gap-3 text-dark-coffee-200">
+                                <span class="text-rosy-copper-500 font-bold text-xl">🏃</span>
                                 <span><strong>Kartu Gerak (10 kartu):</strong> Digunakan untuk memindahkan pemain ke arena lain. Termasuk aksi seperti Langkah Cepat, Lari Cepat, dan Kejar Lawan.</span>
                             </li>
-                            <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">⚔️</span>
+                            <li class="flex items-start gap-3 text-dark-coffee-200">
+                                <span class="text-rosy-copper-500 font-bold text-xl">⚔️</span>
                                 <span><strong>Kartu Taktik (10 kartu):</strong> Digunakan untuk mengatur strategi atau mengganggu lawan. Termasuk Pertahanan Benteng, Gangguan Penjaga, dan Tukar Posisi.</span>
                             </li>
-                            <li class="flex items-start gap-3 text-charcoal-blue-200">
-                                <span class="text-brick-red-500 font-bold text-xl">🏆</span>
+                            <li class="flex items-start gap-3 text-dark-coffee-200">
+                                <span class="text-rosy-copper-500 font-bold text-xl">🏆</span>
                                 <span><strong>Kartu Tantangan (10 kartu):</strong> Digunakan untuk duel atau deklarasi penguasaan arena. Memiliki nilai 1-5 dengan 2 kartu untuk setiap nilai.</span>
                             </li>
                         </ul>
                     </div>
 
-                    <a href="/merch" class="inline-block mt-10 px-8 py-4 bg-brick-red-500 text-white font-bold rounded-lg hover:bg-brick-red-600 transition-colors duration-300">
+                    <a href="/merch" class="inline-block mt-10 px-8 py-4 bg-rosy-copper-500 text-white font-bold rounded-lg hover:bg-rosy-copper-600 transition-colors duration-300">
                         Order Game Sekarang
                     </a>
                 </div>
 
                 <!-- Right Image (40%) -->
                 <div class="w-2/5">
-                    <div class="sticky top-24 bg-linear-to-br from-crimson-violet-700 to-crimson-violet-900 rounded-lg flex items-center justify-center overflow-hidden p-4">
+                    <div class="sticky top-24 bg-linear-to-br from-carrot-orange-700 to-carrot-orange-900 rounded-lg flex items-center justify-center overflow-hidden p-4">
                         <img src="{{ asset('img/banner 40x30.png') }}" alt="Nusantara Clash Board Game" class="w-full h-auto object-contain">
                     </div>
                 </div>
@@ -57,14 +57,14 @@
     </section>
 
     <!-- Live Comments Section -->
-    <section class="bg-gradient-to-b from-charcoal-blue-800 to-charcoal-blue-900 py-16">
+    <section class="bg-gradient-to-b from-dark-coffee-800 to-dark-coffee-900 py-16">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-4xl font-bold text-brick-red-500 mb-12">Live Chat</h2>
+            <h2 class="text-4xl font-bold text-rosy-copper-500 mb-12">Live Chat</h2>
             
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <!-- Chat Messages (70%) -->
                 <div class="lg:col-span-2">
-                    <div class="bg-charcoal-blue-700 rounded-lg p-6 h-96 flex flex-col">
+                    <div class="bg-dark-coffee-700 rounded-lg p-6 h-96 flex flex-col">
                         <!-- Messages Container -->
                         <div id="comments-container" class="flex-1 overflow-y-auto mb-4 space-y-4 pr-2">
                             <!-- Comments will be loaded here -->
@@ -77,47 +77,47 @@
                                 type="text" 
                                 id="username-input"
                                 placeholder="Nama kamu..." 
-                                class="flex-1 bg-charcoal-blue-600 text-charcoal-blue-50 rounded px-4 py-2 text-sm placeholder-charcoal-blue-400 focus:outline-none focus:ring-2 focus:ring-brick-red-500"
+                                class="flex-1 bg-dark-coffee-600 text-dark-coffee-50 rounded px-4 py-2 text-sm placeholder-dark-coffee-400 focus:outline-none focus:ring-2 focus:ring-rosy-copper-500"
                                 required
                             >
                             <input 
                                 type="text" 
                                 id="message-input"
                                 placeholder="Ketik komentar..." 
-                                class="flex-1 bg-charcoal-blue-600 text-charcoal-blue-50 rounded px-4 py-2 text-sm placeholder-charcoal-blue-400 focus:outline-none focus:ring-2 focus:ring-brick-red-500"
+                                class="flex-1 bg-dark-coffee-600 text-dark-coffee-50 rounded px-4 py-2 text-sm placeholder-dark-coffee-400 focus:outline-none focus:ring-2 focus:ring-rosy-copper-500"
                                 required
                             >
-                            <button type="submit" class="px-4 py-2 bg-brick-red-500 text-white rounded font-bold hover:bg-brick-red-600 transition-colors">Send</button>
+                            <button type="submit" class="px-4 py-2 bg-rosy-copper-500 text-white rounded font-bold hover:bg-rosy-copper-600 transition-colors">Send</button>
                         </form>
                     </div>
                 </div>
 
                 <!-- Live Stats (30%) -->
                 <div class="space-y-4">
-                    <div class="bg-charcoal-blue-700 rounded-lg p-6">
-                        <h3 class="text-xl font-bold text-prussian-blue-200 mb-4">📊 Live Stats</h3>
+                    <div class="bg-dark-coffee-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-dark-cyan-200 mb-4">📊 Live Stats</h3>
                         <div class="space-y-3">
                             <div class="flex justify-between items-center">
-                                <span class="text-charcoal-blue-200">Active Players</span>
-                                <span class="font-bold text-brick-red-500">247</span>
+                                <span class="text-dark-coffee-200">Active Players</span>
+                                <span class="font-bold text-rosy-copper-500">247</span>
                             </div>
                             <div class="flex justify-between items-center">
-                                <span class="text-charcoal-blue-200">Games Today</span>
-                                <span class="font-bold text-tangerine-dream-500">1.2K</span>
+                                <span class="text-dark-coffee-200">Games Today</span>
+                                <span class="font-bold text-apricot-cream-500">1.2K</span>
                             </div>
                             <div class="flex justify-between items-center">
-                                <span class="text-charcoal-blue-200">Avg. Game Time</span>
-                                <span class="font-bold text-crimson-violet-500">67 min</span>
+                                <span class="text-dark-coffee-200">Avg. Game Time</span>
+                                <span class="font-bold text-carrot-orange-500">67 min</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="bg-charcoal-blue-700 rounded-lg p-6">
-                        <h3 class="text-xl font-bold text-tangerine-dream-200 mb-4">🏆 Top Players</h3>
+                    <div class="bg-dark-coffee-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-apricot-cream-200 mb-4">🏆 Top Players</h3>
                         <div class="space-y-2 text-sm">
-                            <p class="text-charcoal-blue-100">1. <span class="text-brick-red-500 font-bold">StrategyMaster</span></p>
-                            <p class="text-charcoal-blue-100">2. <span class="text-brick-red-500 font-bold">TacticalGamer</span></p>
-                            <p class="text-charcoal-blue-100">3. <span class="text-brick-red-500 font-bold">NusantaraKing</span></p>
+                            <p class="text-dark-coffee-100">1. <span class="text-rosy-copper-500 font-bold">StrategyMaster</span></p>
+                            <p class="text-dark-coffee-100">2. <span class="text-rosy-copper-500 font-bold">TacticalGamer</span></p>
+                            <p class="text-dark-coffee-100">3. <span class="text-rosy-copper-500 font-bold">NusantaraKing</span></p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
 
 @push('scripts')
 <script>
-    const colors = ['bg-prussian-blue-600', 'bg-tangerine-dream-600', 'bg-crimson-violet-600'];
+    const colors = ['bg-dark-coffee-600', 'bg-apricot-cream-600', 'bg-carrot-orange-600'];
     
     function getRandomColor() {
         return colors[Math.floor(Math.random() * colors.length)];
@@ -156,7 +156,7 @@
                 container.innerHTML = '';
 
                 if (comments.length === 0) {
-                    container.innerHTML = '<p class="text-charcoal-blue-400 text-center py-8">No comments yet. Be the first to comment!</p>';
+                    container.innerHTML = '<p class="text-dark-coffee-400 text-center py-8">No comments yet. Be the first to comment!</p>';
                     return;
                 }
 
@@ -166,10 +166,10 @@
                     commentEl.innerHTML = `
                         <div class="w-10 h-10 ${getRandomColor()} rounded-full flex-shrink-0"></div>
                         <div class="flex-1">
-                            <p class="font-bold text-prussian-blue-200 text-sm">${escapeHtml(comment.username)}</p>
-                            <p class="text-charcoal-blue-100 text-sm mt-1">${escapeHtml(comment.message)}</p>
+                            <p class="font-bold text-dark-cyan-200 text-sm">${escapeHtml(comment.username)}</p>
+                            <p class="text-dark-coffee-100 text-sm mt-1">${escapeHtml(comment.message)}</p>
                         </div>
-                        <span class="text-charcoal-blue-400 text-xs">${formatTime(comment.created_at)}</span>
+                        <span class="text-dark-coffee-400 text-xs">${formatTime(comment.created_at)}</span>
                     `;
                     container.appendChild(commentEl);
                 });
