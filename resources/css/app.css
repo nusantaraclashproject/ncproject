@@ -1,8 +1,30 @@
 @import 'tailwindcss';
 
+@font-face {
+    font-family: 'BitcountPropSingle';
+    src: url('/fonts/BitcountPropSingle-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BitcountPropSingle';
+    src: url('/fonts/BitcountPropSingle-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BitcountPropSingle';
+    src: url('/fonts/BitcountPropSingle-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+}
+
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-bitcount: 'BitcountPropSingle', serif;
     
     --color-apricot-cream-50: #fdf4e7;
     --color-apricot-cream-100: #fce8cf;
@@ -63,4 +85,14 @@
     --color-carrot-orange-800: #5f3407;
     --color-carrot-orange-900: #2f1a04;
     --color-carrot-orange-950: #211202;
+}
+
+@layer components {
+    .font-bitcount {
+        font-family: 'BitcountPropSingle', serif;
+    }
+    
+    h1, h2, h3, .nav-link {
+        @apply font-bitcount;
+    }
 }

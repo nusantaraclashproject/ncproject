@@ -20,15 +20,15 @@
                         Dibuat dari bahan premium cotton berkualitas tinggi dengan cetakan yang tahan lama. Merchandise ini tidak hanya berfungsi sebagai sarana promosi yang memperkuat identitas visual permainan, tetapi juga sebagai produk pendukung yang menarik bagi pemain maupun kolektor.
                     </p>
                     <p class="text-2xl font-bold text-rosy-copper-500">Rp 199.000</p>
-                    <button class="mt-6 px-8 py-3 bg-rosy-copper-500 text-white font-bold rounded-lg hover:bg-rosy-copper-600 transition-colors duration-300">
+                    <a href="https://wa.me/6285791671213?text=Halooo%2C%20apakah%20merch%20masih%20tersedia%3F" target="_blank" class="inline-block mt-6 px-8 py-3 bg-rosy-copper-500 text-white font-bold rounded-lg hover:bg-rosy-copper-600 transition-colors duration-300">
                         Beli Sekarang
-                    </button>
+                    </a>
                 </div>
 
                 <!-- Image (40%) -->
                 <div class="w-2/5">
                     <div class="aspect-square bg-linear-to-br from-dark-coffee-700 to-dark-coffee-900 rounded-lg flex items-center justify-center overflow-hidden">
-                        <img src="{{ asset('img/merch-shirt.svg') }}" alt="Baju Wira Tradisional" class="w-full h-full object-cover p-4">
+                        <img src="{{ asset('img/merch-shirt.webp') }}" alt="Baju Wira Tradisional" class="w-full h-full object-contain p-4">
                     </div>
                 </div>
             </div>
@@ -48,15 +48,43 @@
                         Dengan desain yang konsisten dengan identitas visual permainan, topi ini sangat cocok untuk gaming enthusiast dan kolektor. Dibuat dari bahan berkualitas tinggi yang nyaman digunakan dalam berbagai kesempatan, baik untuk casual daily wear maupun sebagai identitas komunitas Nusantara Clash.
                     </p>
                     <p class="text-2xl font-bold text-rosy-copper-500">Rp 149.000</p>
-                    <button class="mt-6 px-8 py-3 bg-rosy-copper-500 text-white font-bold rounded-lg hover:bg-rosy-copper-600 transition-colors duration-300">
+                    <a href="https://api.whatsapp.com/send?phone=6285791671213&text=Halooo%2C%20apakah%20merch%20masih%20tersedia%3F" target="_blank" class="inline-block mt-6 px-8 py-3 bg-rosy-copper-500 text-white font-bold rounded-lg hover:bg-rosy-copper-600 transition-colors duration-300">
                         Beli Sekarang
-                    </button>
+                    </a>
                 </div>
 
                 <!-- Image (40%) -->
                 <div class="w-2/5">
                     <div class="aspect-square bg-linear-to-br from-apricot-cream-700 to-apricot-cream-900 rounded-lg flex items-center justify-center overflow-hidden">
-                        <img src="{{ asset('img/merch-cap.svg') }}" alt="Topi Wira Tradisional" class="w-full h-full object-cover p-4">
+                        <img src="{{ asset('img/merch-cap.webp') }}" alt="Topi Wira Tradisional" class="w-full h-full object-cover p-4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="h-1 bg-dark-coffee-700 mb-20"></div>
+
+            <!-- Merch Item 3 - Sticker -->
+            <div class="mb-20 flex items-center gap-8">
+                <!-- Description (60%) -->
+                <div class="w-3/5">
+                    <h3 class="text-3xl font-bold text-apricot-cream-500 mb-6">Stiker Nusantara Clash</h3>
+                    <p class="text-dark-coffee-200 text-lg leading-relaxed mb-4">
+                        Koleksi stiker Nusantara Clash yang vibrant dengan desain eksklusif menampilkan karakter dan simbol dari permainan. Sempurna untuk menghiasi laptop, notebook, atau merchandise pribadi Anda.
+                    </p>
+                    <p class="text-dark-coffee-200 text-lg leading-relaxed mb-6">
+                        Dibuat dari material berkualitas tinggi yang tahan lama dan anti air. Setiap sheet berisi berbagai desain menarik yang mencerminkan semangat Nusantara Clash. Ideal sebagai hadiah koleksi atau personal branding untuk para penggemar setia permainan.
+                    </p>
+                    <p class="text-2xl font-bold text-rosy-copper-500">Rp 49.000</p>
+                    <a href="https://wa.me/6285791671213?text=Halooo%2C%20apakah%20stiker%20masih%20tersedia%3F" target="_blank" class="inline-block mt-6 px-8 py-3 bg-rosy-copper-500 text-white font-bold rounded-lg hover:bg-rosy-copper-600 transition-colors duration-300">
+                        Beli Sekarang
+                    </a>
+                </div>
+
+                <!-- Image (40%) -->
+                <div class="w-2/5">
+                    <div class="aspect-square bg-linear-to-br from-carrot-orange-700 to-carrot-orange-900 rounded-lg flex items-center justify-center overflow-hidden">
+                        <img src="{{ asset('img/sticker 1.webp') }}" alt="Stiker Nusantara Clash" class="w-full h-full object-cover p-4">
                     </div>
                 </div>
         </div>
